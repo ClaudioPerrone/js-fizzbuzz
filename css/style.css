@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#numbers-container {
+    width: 960px;
+    background-color: #083b4c;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    color: black;
+    background-color: #1389b2;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.fizz-buzz {
+    background-color: #f0466f;
+    font-size: 20px;
+}
+.fizz {
+    background-color: #0cd6a1;
+    font-size: 20px;
+}
+.buzz {
+    background-color: #ffd166;
+    font-size: 20px;
+}
